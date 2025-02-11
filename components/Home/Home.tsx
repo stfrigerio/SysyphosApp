@@ -7,9 +7,9 @@ import { Text, View } from '../Themed';
 export default function Home() {
 	return (
 		<ImageBackground 
-			source={require('@/assets/images/background.png')}
+			source={require('@/assets/images/background-cut.png')}
 			style={styles.backgroundImage}
-			resizeMode="contain" 
+			resizeMode="cover" 
 		>
 			<View style={[styles.container, { backgroundColor: 'transparent' }]}>
 				<View>
